@@ -1,0 +1,64 @@
+.title{
+    color:red;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    height: 10%;
+}
+
+.firstP{
+    width: 90%;
+    height: 5%;
+    padding: 50px;
+    font-size: 25px;
+}
+
+.tableau{
+    width: 100%;
+    height: 30%;
+    display: flex;
+}
+
+.tableau-graph{
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 82%;
+    height: 10%;
+}
+
+.tableau-text{
+    font-size: 25px;
+    width: 18%;
+    padding-left: 30px;
+    text-align: center;
+    margin-top: 175px;
+    margin-left: 100px;
+
+}
+
+.text{
+    border: solid;
+    border-radius: 10px;
+    border-color: black;
+    padding: 10px;
+}
+
+.flourish-div{
+    margin-top: -200px;
+}
+
+.last-title{
+    color:red;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    height: 10%;
+}
+
+.flourish{
+    display: flex;
+}
+
+.flourish-graph{
+    width: 50%;
+}
