@@ -9,6 +9,7 @@ html, body{
 .navbar{
     height: 125px;
     width: 100%;
+    border-bottom: grey 1px solid !important;
 }
 
 .home{
@@ -854,4 +855,77 @@ html, body{
     margin: 8px;
     margin-top: auto;
     margin-bottom: auto;
+}
+
+/* index.html */
+
+.central-index{
+    width: 82%;
+    height: 90%;
+}
+
+.index-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.images-container{
+    width: 100%;
+    height: 60%;
+    border-bottom: #b4b8bf solid 0.5px;
+    display: flex;
+}
+
+.image-container{
+    width: 30%;
+    height: 100%;
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+.image-index{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.texts-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 20px;
+}
+
+.text-container{
+    width: 30%;
+    height: auto;
+    margin-left: 4%;
+    border: solid 1px #d1c190;
+}
+
+.title-index{
+    color: #c4b998;
+    cursor: context-menu;
+    font-family: Palatino;
+    text-shadow: 2px 2px black;
+    font-size: 2vw;
+    text-align: center;
+    border-bottom: solid 1px #d1c190;
+}
+
+.info-container-index{
+    margin-bottom: auto;
+}
+
+.paragraph-index{
+    color: #c4b998;
+    cursor: context-menu;
+    font-family: Palatino;
+    text-shadow: 2px 2px black;
+    font-size: 1.5vw;
+    margin-left: 3%;
 }
