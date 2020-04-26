@@ -99,10 +99,23 @@ html, body{
     background-size: cover;
     background-position: center;
     border-bottom: solid 0.5px grey;
+    display: flex;
+}
+
+.profile-image{
+    width: 60%;
+    height: 99%;
+    margin:0 auto;
+}
+
+.image-pro{
+    width: 100%;
+    height: 100%;
 }
 
 .profile-text{
-    margin-left: 35%;
+    width: 80%;
+    height: 100%;
     margin-top: 7%;
 }
 
@@ -707,7 +720,7 @@ html, body{
 
 .info-containers{
     width: 29.5%;
-    height: 400px;
+    height: 33%;
     margin-left: 0.5%;
 }
 
@@ -767,6 +780,19 @@ html, body{
     margin-top: 10px;
 }
 
+.skill-title{
+    width: 100%;
+    height: 15%;
+    color: #937341;
+    cursor: context-menu;
+    font-family: Palatino;
+    text-shadow: 2px 2px black;
+    font-size: 2vw;
+    text-align: center;
+    padding: 15px;
+    border-bottom: solid 1px #31271e;
+}
+
 .skill-container{
     width: 62%;
     height: 500px;
@@ -809,8 +835,8 @@ html, body{
     height: 100%;
     text-align: center;
     border-right: solid 1px #31271e;
-    margin-top: auto;
-    margin-bottom: auto;
+    line-height: 100px;
+    vertical-align: middle;
     padding: 3px;
 }
 
