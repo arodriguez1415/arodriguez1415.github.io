@@ -9,14 +9,12 @@ html, body{
 .navbar{
     height: 125px;
     width: 100%;
-    border-bottom-width: 1px !important;
-    border-bottom-color: #a8a6a0 !important;
-    border-bottom-style: solid !important;
 }
 
 .home{
    width: 15%;
    height: 100%;
+   min-width: 200px;
    float:left;
    text-align: center;
 }
@@ -26,6 +24,7 @@ html, body{
     height: 100%;
     margin: auto;
     margin-left: -10%;
+    min-width: 200px;
     padding: 50px;
     background-image: url("resources/images/home.png");
     background-color: transparent;
@@ -45,7 +44,7 @@ html, body{
     width: 15%;
     height: 100%;
     float: left;
-    font-size: 35px;
+    font-size: 1.9vw;
     text-align: center;
     color: #e3dc84;
     line-height: 110px;
@@ -72,7 +71,7 @@ html, body{
 }
 
 .user-text{
-    font-size: 20px;
+    font-size: 1vw;
     font-family: Palatino;
     color: #e3dc84;
     cursor: context-menu;
@@ -108,14 +107,14 @@ html, body{
 }
 
 .profile-name{
-    font-size: 30px;
+    font-size: 1.6vw;
     color: #f5f1e4;
     cursor: context-menu;
     font-family: Palatino;
 }
 
 .profile-range{
-    font-size: 25px;
+    font-size: 1.3vw;
     color: #f5f1e4;
     cursor: context-menu;
     font-family: Palatino;
@@ -139,7 +138,7 @@ html, body{
 }
 
 .characters-title{
-    font-size: 30px;
+    font-size: 1.7vw;
     color: #e3dc84;
     cursor: context-menu;
     font-family: Palatino;
@@ -209,7 +208,7 @@ html, body{
 }
 
 .character-name{
-    font-size: 40px;
+    font-size: 2vw;
     color: #e3dc84;
     font-family: Palatino;
     letter-spacing: 2px;
@@ -220,7 +219,7 @@ html, body{
 }   
 
 .charater-points{
-    font-size: 25px;
+    font-size: 1.7vw;
     color: #e3dc84;
     font-family: Palatino;
     text-shadow: 2px 2px black;
@@ -418,8 +417,8 @@ html, body{
 
 /*COMPETITIVE STYLE */
 .comp-title{
-    width: 1400px;
-    font-size: 70px;
+    width: 90%;
+    font-size: 3.5vw;
     color: #937341;
     cursor: context-menu;
     font-family: Palatino;
@@ -432,8 +431,8 @@ html, body{
 }
 
 .graph-container{
-    width: 1400px;
-    height: 700px;
+    width: 90%;
+    height: 80%;
     margin: 0 auto;
     margin-top: 8px;
     display: flex;
@@ -447,12 +446,12 @@ html, body{
 
 .competitive-image{
     width: 100%;
-    height: 700px;
+    height: 100%;
 }
 
 .divisions{
-    width: 1400px;
-    height: 300px;
+    width: 90%;
+    height: 30%;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
@@ -460,14 +459,14 @@ html, body{
 }
 
 .division{
-    width: 270px;
-    height: 300px;
+    width: 19.6%;
+    height: 100%;
     background-color: #111318;
     border: solid 1px #31271e;
 }
 
 .division-margin{
-    margin-left: 12px;
+    margin-left: 0.5%;
 }
 
 .division-image-container{
@@ -487,22 +486,22 @@ html, body{
     cursor: context-menu;
     font-family: Palatino;
     text-shadow: 2px 2px black;
-    font-size: 25px;
+    font-size: 1.1vw;
     text-align: center;
     margin-top: 10px;
 }
 
 .cards{
     display: flex;
-    width: 1400px;
-    height: 600px;
+    width: 90%;
+    height: 650px;
     margin: 0 auto;
     margin-top: 7px;
 }
 
 .card{
-    width: 350px;
-    height: 500px;
+    width: 25%;
+    height: 80%;
     background-color: #111318;
     border: solid 1px #31271e;
 }
@@ -535,7 +534,7 @@ html, body{
 .card-container-text{
     width: 100%;
     height: 15%;
-    display: flex
+    display: flex;
 }
 
 .text-title{
@@ -544,7 +543,7 @@ html, body{
     cursor: context-menu;
     font-family: Palatino;
     text-shadow: 2px 2px black;
-    font-size: 25px;
+    font-size: 1.3vw;
     text-align: left;
     margin-left: 3%;
 }
@@ -556,7 +555,7 @@ html, body{
     cursor: context-menu;
     font-family: Palatino;
     text-shadow: 2px 2px black;
-    font-size: 25px;
+    font-size: 1.3vw;
     margin-right: 3%;
 }
 
@@ -564,7 +563,7 @@ html, body{
 /*LANES STYLE */
 
 .lanes-container{
-    width: 1500px;
+    width: 90%;
     height: 575px;
     margin: 0 auto;
     margin-top: 15px;
@@ -585,7 +584,7 @@ html, body{
 }
 
 .lanes-containers-info{
-    width: 600px;
+    width: 40%;
     height: 400px;
     margin-left: 10px;
 }
@@ -602,7 +601,7 @@ html, body{
 }
 
 .primary-lane-container{
-    width: 1500px;
+    width: 90%;
     height: 700px;
     margin-top: 15px;
     margin: 0 auto;
@@ -612,16 +611,16 @@ html, body{
 .primary-lane-container-worst{
     background-color: #111318;
     border: solid 1px #31271e;
-    width: 710px;
+    width: 47.5%;
     height: 600px;
 }
 
 .primary-lane-container-best{
     background-color: #111318;
     border: solid 1px #31271e;
-    width: 710px;
+    width: 47.5%;
     height: 600px;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .lane-graph-image{
@@ -637,7 +636,7 @@ html, body{
     cursor: context-menu;
     font-family: Palatino;
     text-shadow: 2px 2px black;
-    font-size: 40px;
+    font-size: 1.8vw;
     text-align: center;
     padding: 15px;
     border-bottom: solid 1px #31271e;
@@ -669,7 +668,7 @@ html, body{
 
 .stats-container{
     background-color: black;
-    width: 1500px;
+    width: 90%;
     height: 500px;
     margin-top: 30px;
     margin-left: 60px;
@@ -677,14 +676,14 @@ html, body{
 }
 
 .stat-container{
-    width: 500px;
+    width: 35%;
     height: 400px;
     background-color: #111318;
     border: solid 1px #31271e;
 }
 
 .stats-container-right{
-    margin-left: -30px;
+    margin-left: -2.5%;
 }
 
 .stat-title{
@@ -694,7 +693,7 @@ html, body{
     cursor: context-menu;
     font-family: Palatino;
     text-shadow: 2px 2px black;
-    font-size: 40px;
+    font-size: 2vw;
     text-align: center;
     padding: 15px;
     border-bottom: solid 1px #31271e;
@@ -707,9 +706,9 @@ html, body{
 }
 
 .info-containers{
-    width: 400px;
+    width: 29.5%;
     height: 400px;
-    margin-left: 10px;
+    margin-left: 0.5%;
 }
 
 .info-container{
@@ -740,7 +739,7 @@ html, body{
     cursor: context-menu;
     font-family: Palatino;
     text-shadow: 2px 2px black;
-    font-size: 25px;
+    font-size: 1.5vw;
     text-align: center;
 }
 
@@ -750,7 +749,7 @@ html, body{
     cursor: context-menu;
     font-family: Palatino;
     text-shadow: 2px 2px black;
-    font-size: 25px;
+    font-size: 1.5vw;
     text-align: center;
 }
 
@@ -760,7 +759,7 @@ html, body{
 
 .skills-container{
     background-color: black;
-    width: 1500px;
+    width: 90%;
     height: 500px;
     margin-top: 30px;
     margin-left: 60px;
@@ -769,7 +768,7 @@ html, body{
 }
 
 .skill-container{
-    width: 870px;
+    width: 62%;
     height: 500px;
     background-color: #111318;
     border: solid 1px #31271e;
@@ -777,23 +776,23 @@ html, body{
 }
 
 .skill-img{
-    width: 800px;
-    height: 350px;
+    width: 95%;
+    height: 70%;
     margin: 0 auto;
     margin-top: 45px;
 }
 
 .skills-info-container{
-    width: 500px;
+    width: 35%;
     height: 500px;
     margin-top: -100px;
-    margin-left: 10px;
+    margin-left: 0.5%;
     display: flex;
     flex-wrap: wrap;
 }
 
 .skill-info-container{
-    width: 500px;
+    width: 100%;
     height: 115px;
     background-color: #111318;
     border: solid 1px #31271e;
@@ -805,10 +804,14 @@ html, body{
     cursor: context-menu;
     font-family: Palatino;
     text-shadow: 2px 2px black;
-    font-size: 65px;
-    width: 100px;
+    font-size: 3.5vw;
+    width: 25%;
+    height: 100%;
     text-align: center;
     border-right: solid 1px #31271e;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 3px;
 }
 
 .skill-detail{
@@ -816,7 +819,7 @@ html, body{
     cursor: context-menu;
     font-family: Palatino;
     text-shadow: 2px 2px black;
-    font-size: 20px;
+    font-size: 1vw;
     width: 400px;
     margin: 8px;
     margin-top: auto;
